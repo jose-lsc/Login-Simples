@@ -28,7 +28,7 @@ section#login{
 
     background-color: white;
     width: 250px;
-    height: 70vh;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.397);
 
@@ -47,13 +47,12 @@ section#login > div#logar{
 div#logar > h2 {
     text-align: center;
     font-size: 1.4em;
-    margin-top: 10%;
-    
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 div#logar > a {
     display: block;
     margin: auto;
-    margin-top: 20%;
     text-align: center;
     padding-bottom: 5px;
     width: 100px;
@@ -78,3 +77,34 @@ div#cadastrar{
     text-align: center;
 }
 
+div#cadastrar > h1 {
+    color: #65c4af;
+}
+
+div#cadastrar  a {
+    text-decoration: none;
+    color: #1a5f50;    
+}
+
+div#cadastrar  a:hover{
+    text-decoration: underline;
+}
+
+div#cadastrar label{
+    color: rgb(77, 77, 77);
+}
+
+input#enviar {
+    background-color: #65c4af;
+    border-radius: 20px;
+    padding: 10px 70px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+input#enviar:hover{
+    background-color: #4e9989;
+    transition: 0.3s;
+}
