@@ -95,16 +95,17 @@ div#cadastrar label{
 }
 
 input#enviar {
-    background-color: #65c4af;
+    background-color: #58AF9C;
     border-radius: 20px;
     padding: 10px 70px;
     margin-top: 30px;
     color: white;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
 
 input#enviar:hover{
-    background-color: #4e9989;
+    background-color: #65c4af;
     transition: 0.3s;
 }
